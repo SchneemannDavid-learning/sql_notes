@@ -62,7 +62,7 @@ select std(salary) from kalpana_1813.salary_info;
 
 ALTER TABLE kalpana_1813.salary_info ADD avg_salary float;
 ALTER TABLE kalpana_1813.salary_info ADD std_salary float;
-ALTER table kalpana_1813.salary_info ADD greater_than_average INT;
+ALTER TABLE kalpana_1813.salary_info ADD greater_than_average INT;
 
 # Update the std dev and avg_salary in salary_info
 
@@ -71,3 +71,6 @@ UPDATE kalpana_1813.salary_info SET std_salary = 16000;
 UPDATE kalpana_1813.salary_info SET greater_than_average = salary > avg_salary;
 
 select * from kalpana_1813.salary_info;
+
+
+
